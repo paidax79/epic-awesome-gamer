@@ -122,7 +122,7 @@ Provide the commit message as a single JSON object, following the rules and form
 """
 
 GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
-MODEL_NAME = os.getenv("MODEL_NAME", "gemini-2.5-flash")
+MODEL_NAME = os.getenv("MODEL_NAME", "gemini-3-flash-preview-free")
 
 # Maximum context length (number of characters), 40k
 MAX_CONTEXT_LENGTH = 40960
